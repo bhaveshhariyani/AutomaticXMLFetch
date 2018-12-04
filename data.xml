@@ -1,0 +1,49 @@
+
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+	<channel>
+		<atom:link type="application/rss+xml" rel="self" href="https://timesofindia.indiatimes.com/rssfeedstopstories.cms"/>
+		<title>Times of India</title>
+		<link>https://timesofindia.indiatimes.com</link>
+		<description>The Times of India: Breaking news, views, reviews, cricket from across India</description>
+		<language>en-gb</language>
+		<copyright>Copyright:(C) 2018 Bennett Coleman &amp; Co. Ltd, http://info.indiatimes.com/terms/tou.html</copyright>
+		<docs>http://timescontent.com/</docs>
+		<image><title>Times of India</title><link>https://timesofindia.indiatimes.com</link><url>https://timesofindia.indiatimes.com/photo.cms?msid=507610</url></image>
+		<item>
+			<title>Learn and earn more: Infosys helps employees upskill, doubles salary </title>
+			<description>Infosys is doubling pay packages for employees who successfully complete its new bridge programmes.  The company expects this initiative will also reduce attrition at junior levels — the rate has been high in recent times at over 20% — and give young employees more growth options.</description>
+			<link>https://timesofindia.indiatimes.com/city/bengaluru/infosys-helps-employees-upskill-doubles-salary/articleshow/66818968.cms</link>
+			<guid>https://timesofindia.indiatimes.com/city/bengaluru/infosys-helps-employees-upskill-doubles-salary/articleshow/66818968.cms</guid>
+			<pubDate>Tue, 27 Nov 2018 04:02:52 GMT</pubDate>
+		</item>
+		<item>
+			<title>Highest earning player: Kohli could eclipse Dhoni</title>
+			<description>Being the highest profile athlete in the world's second most populous country, India cricket captain Virat Kohli has built such a formidable brand across the spectrum that even his occasional brash and indiscrete comments fail to tarnish it.</description>
+			<link>https://timesofindia.indiatimes.com/sports/off-the-field/big-appeal-virat-kohli-pulls-in-the-ad-dollars-despite-verbal-slips/articleshow/66823917.cms</link>
+			<guid>https://timesofindia.indiatimes.com/sports/off-the-field/big-appeal-virat-kohli-pulls-in-the-ad-dollars-despite-verbal-slips/articleshow/66823917.cms</guid>
+			<pubDate>Tue, 27 Nov 2018 08:01:53 GMT</pubDate>
+		</item>
+		<item>
+			<title>Maldives: Chinese projects are inflated</title>
+			<description>President Ibrahim Mohamed Solih's administration, which took office this month, is reviewing contracts awarded by his predecessor Abdulla Yameen. Most went to Chinese firms and are feared to have left the country in debt.</description>
+			<link>https://timesofindia.indiatimes.com/world/south-asia/maldives-says-china-is-building-projects-at-inflated-prices/articleshow/66823790.cms</link>
+			<guid>https://timesofindia.indiatimes.com/world/south-asia/maldives-says-china-is-building-projects-at-inflated-prices/articleshow/66823790.cms</guid>
+			<pubDate>Tue, 27 Nov 2018 07:44:55 GMT</pubDate>
+		</item>
+		<item>
+			<title>WhatsApp porn group admin held in Mumbai</title>
+			<description>Mustaq Ali Shaikh, 24, a carpenter from West Bengal, is now in police custody, arrested under IPC sections for outraging the modesty of a woman, and under 67 and 67-A of the IT Act. Matunga police, who made the arrest on Thursday, said this was a lesson for all administrators to be cautious on who they add and what is posted.</description>
+			<link>https://timesofindia.indiatimes.com/city/mumbai/whatsapp-porn-group-admin-held-in-mumbai/articleshow/66818984.cms</link>
+			<guid>https://timesofindia.indiatimes.com/city/mumbai/whatsapp-porn-group-admin-held-in-mumbai/articleshow/66818984.cms</guid>
+			<pubDate>Tue, 27 Nov 2018 03:26:32 GMT</pubDate>
+		</item>
+		<item>
+			<title>'Govt's inaction on shelter homes case shameful'</title>
+			<description>The Supreme Court termed state government's conduct "shameful" after noting that some of the children were allegedly sodomised at the shelter homes, but the police did not invoke Section 377 of IPC. The court asked CBI counsel to take instruction and inform the court by tomorrow whether it could take up all cases for a probe.</description>
+			<link>https://timesofindia.indiatimes.com/india/sc-raps-bihar-govt-asks-if-children-in-shelter-homes-are-not-citizens-of-the-country/articleshow/66822294.cms</link>
+			<guid>https://timesofindia.indiatimes.com/india/sc-raps-bihar-govt-asks-if-children-in-shelter-homes-are-not-citizens-of-the-country/articleshow/66822294.cms</guid>
+			<pubDate>Tue, 27 Nov 2018 06:19:40 GMT</pubDate>
+		</item>
+	</channel>
+</rss>
