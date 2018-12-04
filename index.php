@@ -3,37 +3,44 @@
 	$filepath = getcwd();
 	// echo $filepath;
 
-	if ($handle = opendir($filepath)) {
-    while (false !== ($file = readdir($handle)))
-    {
-        if ($file != "." && $file != ".." && strtolower(substr($file, strrpos($file, '.') + 1)) == 'xml')
-        {
-            $thelist .= '<li><a href="'.$file.'">'.$file.'</a></li>';
-        }
-    }
-    closedir($handle);
-}
+// 	if ($handle = opendir($filepath)) {
+//     while (false !== ($file = readdir($handle)))
+//     {
+//         if ($file != "." && $file != ".." && strtolower(substr($file, strrpos($file, '.') + 1)) == 'xml')
+//         {
+//             $thelist .= '<li><a href="'.$file.'">'.$file.'</a></li>';
+//         }
+//     }
+//     closedir($handle);
+// }
 ?>
 
-<!-- <p>List of files:</p>
-<ul>
-<p><?=$thelist?></p>
-</ul> -->
 
 <?php
-
-	// $url = "data.xml";
+	
+	//get the lastest file uploaded in excel_uploads/
+	$path = $filepath;
+	$latest_ctime = 0;
+	$latest_filename = '';    
+	$d = dir($path);
+	while (false !== ($entry = $d->read())) {
+	$filepath1 = "{$path}/{$entry}";
+	if ($entry != "." && $entry != ".." && strtolower(substr($entry, strrpos($entry, '.') + 1)) == 'xml')
+        {
+	//Check whether the entry is a file etc.:
+	    if(is_file($filepath1) && filectime($filepath1) > $latest_ctime) {
+	    $latest_ctime = filectime($filepath1);
+	    $latest_filename = $entry;
+	    }//end if is file etc.
+	}
+	}//end while going over files in excel_uploads dir.
+	echo "The latest XML File is - "; echo $latest_filename; 
+	?>
+	<br>
+<?php
 	$file = glob('*.xml');
-	$file1 = implode("",$file);
-	// echo $file1;
-	$url = $file1;
-	// $ch = curl_init();
-	// curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-	// curl_setopt($ch, CURLOPT_URL, $url);    //Get the URL Contents
-	//
-	// $data = curl_exec($ch);     //Execute the CURL Request
-	// curl_close($ch);
-
+	$url = $latest_filename;
+	
 	$xml = simplexml_load_file($url);
 
 	$con = mysqli_connect("localhost","root","","new_xml_extract");  //Connect to the server
